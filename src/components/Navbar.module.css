@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Logo */
+.logo img {
+    margin-left: 30px;
+    position: relative;
+    width: 10em;
+    height: 4.5em;
+}
+
+.navbar {
+    font-family: 'Jeju Gothic', sans-serif;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: linear-gradient(180deg, #D32645, #6D1424);
+    color: white;
+}
+
+/* Lista de coisitias*/
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 40em;
+}
+
+.itensLista{
+    font-size: 22px;
+}
+
+.itensLista a{
+    color: white;
+    text-decoration: none;
+}
+
+.itensLista li::marker{
+    content: '';
+}
+
+.busca {
+    margin-right: 5%;
+}

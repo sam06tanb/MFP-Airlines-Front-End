@@ -4,7 +4,8 @@ function Home1(){
     return (
         <>
             <section>
-                <div>
+                <div className={styles.container}>
+                    <section className={styles.airplane}></section>
                 </div>
             </section>
         </>

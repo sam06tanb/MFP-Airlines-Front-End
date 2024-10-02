@@ -5,25 +5,29 @@
 
 /* Logo */
 .logo img {
-    margin-left: 30px;
-    position: relative;
     width: 10em;
     height: 4.5em;
 }
 
-.navbar {
-    font-family: 'Jeju Gothic', sans-serif;
+.elementos{
+    width: 95%;
     align-items: center;
     display: flex;
     margin: 0 auto;
     flex-direction: row;
     justify-content: space-between;
-    background-image: linear-gradient(180deg, #D32645, #6D1424);
     color: white;
+    
+}
+
+.navbar {
+    font-family: 'Jeju Gothic', sans-serif;
+    background-image: linear-gradient(180deg, #D32645, #6D1424);
 }
 
 /* Lista de coisitias*/
 .navbar ul{
+    margin-right: 10px;
     display: flex;
     flex-direction: row;
     list-style-type: none;
@@ -33,6 +37,8 @@
 
 .itensLista{
     font-size: 22px;
+    padding: 10px 20px;
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .itensLista a{
@@ -40,10 +46,44 @@
     text-decoration: none;
 }
 
+.itensLista:last-child{
+    border: none;
+}
+
 .itensLista li::marker{
     content: '';
 }
 
 .busca {
-    margin-right: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 17.8em;
+    border-radius: 20px;
+    outline: none;    
+}
+
+.busca input{
+    outline: none;
+    border: none;
+    height: 38px;
+    border-radius:20px;
+    width: 17em;
+    padding: 0 10px;
+    transition: background-color 0.3s ease;
+}
+
+.busca img{
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    outline: none;
+}
+
+.busca input:hover {
+   background-color: aliceblue;
+}
+
+.userDiv img{
+    width: 38px;
 }

@@ -6,9 +6,9 @@ import Home1 from "./Home1"
 function Homepage() {
     return ( 
         <body>
+            <Navbar />
+            <Home1 />
             <section>
-                <Navbar />
-                <Home1 />
             </section>
         </body>
     )

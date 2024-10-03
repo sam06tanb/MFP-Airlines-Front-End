@@ -2,7 +2,6 @@ import styles from "./Navbar.module.css"
 import logo from "./img/imgNavbar/logo.png"
 import lupa from "./img/imgNavbar/lupa.png"
 import iconUser from "./img/imgNavbar/iconUser.png"
-
 function Navbar(){
     return(
         <>

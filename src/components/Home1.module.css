@@ -5,3 +5,34 @@
     background-position: center;
     background-size: cover;
 }
+
+.central {
+    font-family: "ABeeZee", sans-serif;
+    text-shadow: rgb(0, 0, 0) 1px 0 13px;
+    color: rgba(164, 0, 0, 1);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.877);
+    top: 15%;
+    text-align: center;
+    width: 30%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    font-size: 20px;
+}
+
+.central img {
+    width: 30%;
+}
+
+.central li {
+    float: left;
+    margin: 1.2em;
+}
+
+.central li::marker {
+    content: '';
+}

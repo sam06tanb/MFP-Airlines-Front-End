@@ -18,7 +18,11 @@ function Home1(){
                                 <li> <img src={hoteis} alt="Hoteis" width="100px" height="50px"></img><br/>Hóteis</li>
                                 <li> <img src={viagemCompleta} alt="Viagem Completa"></img><br/>Viagem <br/> Completa</li>
                             </ul>
+<<<<<<< Updated upstream
                             </div>
+=======
+                        </div>
+>>>>>>> Stashed changes
                     </section>
                 </div>
             </section>

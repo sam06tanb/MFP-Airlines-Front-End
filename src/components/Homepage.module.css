@@ -2,8 +2,13 @@
     margin: 0;
     padding: 0;
     background-size: cover;
+<<<<<<< Updated upstream
     background-position: center; 
     background-repeat: no-repeat; 
+=======
+    background-position: center;
+    background-repeat: no-repeat;
+>>>>>>> Stashed changes
     background-attachment: fixed;
     box-sizing: border-box;
 }
@@ -61,5 +66,9 @@ hr {
 }
 
 .iconsBox {
+<<<<<<< Updated upstream
    width: 90%;
+=======
+    width: 90%;
+>>>>>>> Stashed changes
 }

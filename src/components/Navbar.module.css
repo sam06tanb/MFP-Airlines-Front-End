@@ -17,7 +17,11 @@
     flex-direction: row;
     justify-content: space-between;
     color: white;
+<<<<<<< Updated upstream
     
+=======
+
+>>>>>>> Stashed changes
 }
 
 .navbar {
@@ -60,7 +64,11 @@
     justify-content: space-between;
     width: 17.8em;
     border-radius: 20px;
+<<<<<<< Updated upstream
     outline: none;    
+=======
+    outline: none;
+>>>>>>> Stashed changes
 }
 
 .busca input{
@@ -81,7 +89,11 @@
 }
 
 .busca input:hover {
+<<<<<<< Updated upstream
    background-color: aliceblue;
+=======
+    background-color: aliceblue;
+>>>>>>> Stashed changes
 }
 
 .userDiv img{
